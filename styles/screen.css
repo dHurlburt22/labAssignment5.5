@@ -1,0 +1,127 @@
+*{
+   /* margin: 0;
+    padding: 0;*/
+}
+
+:root{
+    --heading_grey: #4f5052;
+}
+
+body {
+    font-family: Helvetica, sans-serif;
+    color: #EAE8FF;
+    background: #dbd5d5;
+}
+
+main{
+    background: url(/images/polaroid.png) no-repeat center 100px;
+    margin: 0 auto;
+    width:1000px;
+}
+
+/*.polaroid{
+    display: flex;
+    background-image: url(/images/polaroid.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 250px;
+}*/
+
+
+h1{
+    text-align: left;
+    font-size: 2rem;
+    color:var(--heading_grey);
+    padding-left: 50px;
+
+}
+
+h2{
+    text-align: center;
+    font-size: 6rem;
+    font-weight:800;
+    color:var(--heading_grey);
+    margin: 0;
+    padding:0px;
+}
+
+.spaceAboveImage{
+  margin-top:530px;
+}
+
+h3{
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight:800;
+    color:var(--heading_grey);
+    margin: 0;
+    padding:0px;
+}
+
+p{
+    color:var(--heading_grey);
+    text-align: left;
+}
+
+.paragraphBox{
+    width:750px;
+    font-size: 1.4rem;
+    margin: auto;
+    margin-top:20px;
+    margin-bottom: 50px;
+}
+
+.infoBox{
+   width:750px;
+   margin: auto;
+   font-size: 1.4rem;
+   display: flex;
+   
+}
+
+.imageSizing{
+    width:30px;
+    height: auto;
+    align-self: center;
+    margin-right: 20px;
+}
+
+.marginSizingAboveEmail{
+    margin-top: 50px;
+}
+
+.marginSizingBelowTitle{
+    margin-bottom: 100px;
+}
+
+.emailBox{
+    background-color: rgb(198, 198, 198);
+    padding: 30px;
+    border-radius: 20px;
+    width: 700px;
+    /*display: flex;*/
+   /* border: 5px solid green; */
+    margin: auto;
+    margin-bottom: 100px;
+    margin-top: 25px;
+}
+
+.emailLine{
+    background-color: white;
+    padding: 25px 30px;
+    margin: 0 auto;
+    margin-right: 5px;
+    padding-right:160px;
+    font-size: 1rem;
+    color:var(--heading_grey)
+}
+
+.button{
+    background-color: red;
+    padding: 23px 28px;
+    color:white;
+    font-weight: bold;
+    border-color: red;
+    font-size: 1rem;
+}
+
